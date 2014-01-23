@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		299492411891629A00E78D7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 299492401891629A00E78D7C /* Foundation.framework */; };
+		299492431891629A00E78D7C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 299492421891629A00E78D7C /* CoreGraphics.framework */; };
+		299492451891629A00E78D7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 299492441891629A00E78D7C /* UIKit.framework */; };
+		2994924B1891629A00E78D7C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 299492491891629A00E78D7C /* InfoPlist.strings */; };
+		2994924D1891629A00E78D7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2994924C1891629A00E78D7C /* main.m */; };
+		299492511891629A00E78D7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 299492501891629A00E78D7C /* AppDelegate.m */; };
+		299492541891629A00E78D7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 299492521891629A00E78D7C /* Main.storyboard */; };
+		299492571891629A00E78D7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 299492561891629A00E78D7C /* ViewController.m */; };
+		299492591891629A00E78D7C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 299492581891629A00E78D7C /* Images.xcassets */; };
+		299492601891629A00E78D7C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2994925F1891629A00E78D7C /* XCTest.framework */; };
+		299492611891629A00E78D7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 299492401891629A00E78D7C /* Foundation.framework */; };
+		299492621891629A00E78D7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 299492441891629A00E78D7C /* UIKit.framework */; };
+		2994926A1891629A00E78D7C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 299492681891629A00E78D7C /* InfoPlist.strings */; };
+		2994926C1891629A00E78D7C /* POIGridViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2994926B1891629A00E78D7C /* POIGridViewTests.m */; };
+		29949277189162F600E78D7C /* POIGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29949276189162F600E78D7C /* POIGridView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		299492631891629A00E78D7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 299492351891629A00E78D7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2994923C1891629A00E78D7C;
+			remoteInfo = POIGridView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2994923D1891629A00E78D7C /* POIGridView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POIGridView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		299492401891629A00E78D7C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		299492421891629A00E78D7C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		299492441891629A00E78D7C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		299492481891629A00E78D7C /* POIGridView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "POIGridView-Info.plist"; sourceTree = "<group>"; };
+		2994924A1891629A00E78D7C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2994924C1891629A00E78D7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2994924E1891629A00E78D7C /* POIGridView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "POIGridView-Prefix.pch"; sourceTree = "<group>"; };
+		2994924F1891629A00E78D7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		299492501891629A00E78D7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		299492531891629A00E78D7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		299492551891629A00E78D7C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		299492561891629A00E78D7C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		299492581891629A00E78D7C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2994925E1891629A00E78D7C /* POIGridViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POIGridViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2994925F1891629A00E78D7C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		299492671891629A00E78D7C /* POIGridViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "POIGridViewTests-Info.plist"; sourceTree = "<group>"; };
+		299492691891629A00E78D7C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2994926B1891629A00E78D7C /* POIGridViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POIGridViewTests.m; sourceTree = "<group>"; };
+		29949275189162F600E78D7C /* POIGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POIGridView.h; sourceTree = "<group>"; };
+		29949276189162F600E78D7C /* POIGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POIGridView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2994923A1891629A00E78D7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				299492431891629A00E78D7C /* CoreGraphics.framework in Frameworks */,
+				299492451891629A00E78D7C /* UIKit.framework in Frameworks */,
+				299492411891629A00E78D7C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2994925B1891629A00E78D7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				299492601891629A00E78D7C /* XCTest.framework in Frameworks */,
+				299492621891629A00E78D7C /* UIKit.framework in Frameworks */,
+				299492611891629A00E78D7C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		299492341891629A00E78D7C = {
+			isa = PBXGroup;
+			children = (
+				299492461891629A00E78D7C /* POIGridView */,
+				299492651891629A00E78D7C /* POIGridViewTests */,
+				2994923F1891629A00E78D7C /* Frameworks */,
+				2994923E1891629A00E78D7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2994923E1891629A00E78D7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2994923D1891629A00E78D7C /* POIGridView.app */,
+				2994925E1891629A00E78D7C /* POIGridViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2994923F1891629A00E78D7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				299492401891629A00E78D7C /* Foundation.framework */,
+				299492421891629A00E78D7C /* CoreGraphics.framework */,
+				299492441891629A00E78D7C /* UIKit.framework */,
+				2994925F1891629A00E78D7C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		299492461891629A00E78D7C /* POIGridView */ = {
+			isa = PBXGroup;
+			children = (
+				29949278189164F300E78D7C /* iPad */,
+				29949275189162F600E78D7C /* POIGridView.h */,
+				29949276189162F600E78D7C /* POIGridView.m */,
+				2994924F1891629A00E78D7C /* AppDelegate.h */,
+				299492501891629A00E78D7C /* AppDelegate.m */,
+				299492521891629A00E78D7C /* Main.storyboard */,
+				299492551891629A00E78D7C /* ViewController.h */,
+				299492561891629A00E78D7C /* ViewController.m */,
+				299492581891629A00E78D7C /* Images.xcassets */,
+				299492471891629A00E78D7C /* Supporting Files */,
+			);
+			path = POIGridView;
+			sourceTree = "<group>";
+		};
+		299492471891629A00E78D7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				299492481891629A00E78D7C /* POIGridView-Info.plist */,
+				299492491891629A00E78D7C /* InfoPlist.strings */,
+				2994924C1891629A00E78D7C /* main.m */,
+				2994924E1891629A00E78D7C /* POIGridView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		299492651891629A00E78D7C /* POIGridViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				2994926B1891629A00E78D7C /* POIGridViewTests.m */,
+				299492661891629A00E78D7C /* Supporting Files */,
+			);
+			path = POIGridViewTests;
+			sourceTree = "<group>";
+		};
+		299492661891629A00E78D7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				299492671891629A00E78D7C /* POIGridViewTests-Info.plist */,
+				299492681891629A00E78D7C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29949278189164F300E78D7C /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2994923C1891629A00E78D7C /* POIGridView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2994926F1891629A00E78D7C /* Build configuration list for PBXNativeTarget "POIGridView" */;
+			buildPhases = (
+				299492391891629A00E78D7C /* Sources */,
+				2994923A1891629A00E78D7C /* Frameworks */,
+				2994923B1891629A00E78D7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = POIGridView;
+			productName = POIGridView;
+			productReference = 2994923D1891629A00E78D7C /* POIGridView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2994925D1891629A00E78D7C /* POIGridViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 299492721891629A00E78D7C /* Build configuration list for PBXNativeTarget "POIGridViewTests" */;
+			buildPhases = (
+				2994925A1891629A00E78D7C /* Sources */,
+				2994925B1891629A00E78D7C /* Frameworks */,
+				2994925C1891629A00E78D7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				299492641891629A00E78D7C /* PBXTargetDependency */,
+			);
+			name = POIGridViewTests;
+			productName = POIGridViewTests;
+			productReference = 2994925E1891629A00E78D7C /* POIGridViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		299492351891629A00E78D7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Poison;
+				TargetAttributes = {
+					2994925D1891629A00E78D7C = {
+						TestTargetID = 2994923C1891629A00E78D7C;
+					};
+				};
+			};
+			buildConfigurationList = 299492381891629A00E78D7C /* Build configuration list for PBXProject "POIGridView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 299492341891629A00E78D7C;
+			productRefGroup = 2994923E1891629A00E78D7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2994923C1891629A00E78D7C /* POIGridView */,
+				2994925D1891629A00E78D7C /* POIGridViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2994923B1891629A00E78D7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				299492591891629A00E78D7C /* Images.xcassets in Resources */,
+				2994924B1891629A00E78D7C /* InfoPlist.strings in Resources */,
+				299492541891629A00E78D7C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2994925C1891629A00E78D7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2994926A1891629A00E78D7C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		299492391891629A00E78D7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				299492571891629A00E78D7C /* ViewController.m in Sources */,
+				29949277189162F600E78D7C /* POIGridView.m in Sources */,
+				299492511891629A00E78D7C /* AppDelegate.m in Sources */,
+				2994924D1891629A00E78D7C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2994925A1891629A00E78D7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2994926C1891629A00E78D7C /* POIGridViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		299492641891629A00E78D7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2994923C1891629A00E78D7C /* POIGridView */;
+			targetProxy = 299492631891629A00E78D7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		299492491891629A00E78D7C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2994924A1891629A00E78D7C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		299492521891629A00E78D7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				299492531891629A00E78D7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		299492681891629A00E78D7C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				299492691891629A00E78D7C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2994926D1891629A00E78D7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2994926E1891629A00E78D7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		299492701891629A00E78D7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "POIGridView/POIGridView-Prefix.pch";
+				INFOPLIST_FILE = "POIGridView/POIGridView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		299492711891629A00E78D7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "POIGridView/POIGridView-Prefix.pch";
+				INFOPLIST_FILE = "POIGridView/POIGridView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		299492731891629A00E78D7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/POIGridView.app/POIGridView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "POIGridView/POIGridView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "POIGridViewTests/POIGridViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		299492741891629A00E78D7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/POIGridView.app/POIGridView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "POIGridView/POIGridView-Prefix.pch";
+				INFOPLIST_FILE = "POIGridViewTests/POIGridViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		299492381891629A00E78D7C /* Build configuration list for PBXProject "POIGridView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2994926D1891629A00E78D7C /* Debug */,
+				2994926E1891629A00E78D7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2994926F1891629A00E78D7C /* Build configuration list for PBXNativeTarget "POIGridView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				299492701891629A00E78D7C /* Debug */,
+				299492711891629A00E78D7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		299492721891629A00E78D7C /* Build configuration list for PBXNativeTarget "POIGridViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				299492731891629A00E78D7C /* Debug */,
+				299492741891629A00E78D7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 299492351891629A00E78D7C /* Project object */;
+}
